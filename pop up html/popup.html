@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>coustam popup massage with jquery</title>
+    <link rel="stylesheet" href="popstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn">alert massage</button>
+
+        <div class="popup">
+
+
+            <span id="close">&times;</span>
+            <p>Do you want to accept?</p>
+            <div class="options">
+                <a href="">yes</a>
+                <a href="">no</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="cover">
+
+    </div>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".btn").on('click', function() {
+                $(".cover").fadeIn('slow');
+                $(".popup").fadeIn('slow');
+            });
+            
+            
+            
+            $(".popup").on('click'.function() {
+                if ($(event.target).is("#close")) 
+                    $(".cover").fadeOut('slow');
+                    $(".popup").fadeOut('slow');
+                
+            });
+            $('.cover').on('click', function() {
+                $(".cover").fadeOut('slow');
+                $(".popup").fadeOut('slow');
+            });
+        });
+    </script>
+</body>
+
+</html>

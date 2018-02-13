@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.shimla_web_application {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: ;
+    display: flex;
+}
+
+.left_website_content {
+    border: 1px solid red;
+    margin: 80px;
+    padding: 50px;
+}
+
+.aplication {
+    border: 1px solid green;
+    font-family: ;
+    font-size: 50px;
+    color: red;
+
+}
+
+.pragraph {
+    border: 1px solid green;
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+
+}
+
+.box {
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    color: red;
+    background-color: green;
+    border-radius: 2px;
+    margin-left: -17px;
+
+}
+
+.rol {
+    border: 1px solid yellow;
+    font-family: ;
+    font-size: 40px;
+    color: red;
+}
+
+ul {
+    border: 1px solid blue;
+    list-style-type: none;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
+.right_website_content {
+    border: 1px solid blue;
+}
+.visit{
+    border: 1px solid white;
+    font-family: ;
+    font-size: 20px;
+    color: red;
+    
+}

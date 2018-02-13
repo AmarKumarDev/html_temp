@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>text Animation</title>
+    <link href="textstyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <ul class="text-animation">
+        <li>R</li>
+        <li>E</li>
+        <li>S</li>
+        <li>T</li>
+        <li>O</li>
+        <li>G</li>
+        <li></li>
+        <li>R</li>
+        <li>E</li>
+        <li>V</li>
+        <li>A</li>
+        <li>L</li>
+        <li>U</li>
+        <li>T</li>
+        <li>I</li>
+        <li>O</li>
+        <li>N</li>
+    </ul>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            setTimeout(function() {
+                $('.text-animation').removeClass('hidden');
+            }, 500);
+        })();
+
+    </script>
+</body>
+
+</html>

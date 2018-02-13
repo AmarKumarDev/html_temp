@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-image: url(image/i2.jpg);
+            }
+            .text{
+                font-family: arial black;
+                font-size: 65px;
+                position: absolute;
+                top: 250;
+                left: 350;
+            }
+            .circle1{
+                height: 30px;
+                width: 30px;
+                background-color:teal;
+                position: absolute;
+                top: 290;
+                left: 700;
+                border-radius: 50%;
+                -webkit-animation:move 4s;
+            }
+            .circle2{
+                height: 30px;
+                width: 30px;
+                background-color:darkblue;
+                position: absolute;
+                top: 290;
+                left: 750;
+                border-radius: 50%;
+                -webkit-animation:move 4.2s;
+            }
+            .circle3{
+                height: 30px;
+                width: 30px;
+                background-color:maroon;
+                position: absolute;
+                top: 290;
+                left: 800;
+                border-radius: 50%;
+                -webkit-animation:move 4.6s;
+            }
+            @-webkit-keyframes move{
+                 0%{background-color: blue; top: 290;}
+                 20%{background-color:aqua; top: 190;}
+                 40%{background-color: blue; top: 290;}
+                 60%{background-color: fuchsia; top: 190;}
+                 80%{background-color: blue; top: 290;}
+                 90%{background-color: aqua; top: 190;}
+                 100%{background-color: fuchsia; top: 290;}            
+            }
+                        
+
+        
+        </style>
+    </head>
+    <body>
+        <div class="text">LODING</div>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </body>
+</html>
